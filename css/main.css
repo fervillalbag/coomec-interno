@@ -223,7 +223,7 @@ ul {
    clip-path: polygon(0 0, 66% 0, 62% 15%, 0 15%);
    position: absolute;
    top: -0.5rem;
-   left: 0;
+   left: -0.5px;
    width: 31rem;
    height: 20rem;
 }
