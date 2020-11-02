@@ -192,11 +192,71 @@
             reglamento vigente. Podrán solicitarse otros documentos adicionales.
          </p>
          <div class="calculator-credit__action">
-            <a href="#" class="calculator-credit__button">Solicitar Crédito</a>
+            <button class="calculator-credit__button" id="credit-button">
+               Solicitar Crédito
+            </button>
          </div>
 
       </div>
    </section>
+
+   <div class="overlay" id="overlay"></div>
+   <div class="modal-custom" id="modal-custom">
+      <div class="modal-header">
+         <h2 class="modal-header__title">Préstamos personales</h2>
+      </div>
+      <div class="modal-main">
+         <h3 class="modal-main__title">Datos de la Solicitud</h3>
+
+         <form class="modal-form">
+            <div class="modal-group-custom">
+               <span class="modal-form__title">Tipo de documento</span>
+               <select name="documento1" id="documento1" class="modal-form__input">
+                  <option>CI</option>
+                  <option>Pasaporte</option>
+               </select>
+            </div>
+            <div class="modal-group-custom">
+               <span class="modal-form__title">Número de Cédula de Identidad</span>
+               <input type="text" class="modal-form__input">
+            </div>
+            <div class="modal-group-custom">
+               <span class="modal-form__title">Nombre y Apellido</span>
+               <input type="text" class="modal-form__input">
+            </div>
+            <div class="modal-group-custom">
+               <span class="modal-form__title">Ingreso</span>
+               <input type="text" class="modal-form__input">
+            </div>
+            <div class="modal-group-custom">
+               <span class="modal-form__title">Egreso</span>
+               <input type="text" class="modal-form__input">
+            </div>
+            <div class="modal-group-custom">
+               <span class="modal-form__title">Actividad Laboral</span>
+               <select name="documento2" id="documento2" class="modal-form__input">
+                  <option>CI</option>
+                  <option>Pasaporte</option>
+               </select>
+            </div>
+            <div class="modal-group-custom">
+               <span class="modal-form__title">Monto Solicitado</span>
+               <input type="text" class="modal-form__input">
+            </div>
+            <div class="modal-group-custom">
+               <span class="modal-form__title">Plazo Solicitado</span>
+               <input type="text" class="modal-form__input">
+            </div>
+
+            <div class="modal-action-custom">
+               <button class="modal-submit">Solicitar</button>
+            </div>
+
+         </form>
+      </div>
+   </div>
+
+   <script src="./js/app.js"></script>
 
 </body>
 
