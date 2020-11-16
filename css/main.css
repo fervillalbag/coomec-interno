@@ -503,11 +503,17 @@ ul {
 }
 
 .calculator__footer {
-   padding-left: 3rem;
-   padding-right: 3rem;
+   padding: 2rem 3rem;
    text-align: center;
    font-size: 0.9rem;
    margin-top: 1.5rem;
+   background-color: rgba(58, 203, 203, 0.35);
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.calculator__footer:last-of-type {
+   padding-top: 0;
 }
 
 .calculator-credit__action {
