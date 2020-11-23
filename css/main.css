@@ -482,7 +482,7 @@ ul {
 }
 
 .calculator__button:hover {
-   background-color: var(--secondaryColor);
+   background-color: rgba(9,41,88,0.9);
 }
 
 .calculator__image {
@@ -505,7 +505,7 @@ ul {
 .calculator__footer {
    padding: 2rem 3rem;
    text-align: center;
-   font-size: 0.9rem;
+   font-size: 0.8rem;
    margin-top: 1.5rem;
    background-color: rgba(58, 203, 203, 0.35);
    margin-top: 0;
@@ -523,7 +523,7 @@ ul {
 }
 
 .calculator-credit__button {
-   background-color: var(--secondaryColor);
+   background-color: var(--principalColor);
    text-decoration: none;
    padding: 0.7rem 2.5rem;
    color: var(--lightColor);
@@ -534,6 +534,7 @@ ul {
 
 .calculator-credit__button:hover {
    text-decoration: none;
+   background-color: rgba(9,41,88,0.9);
 }
 
 .calculator-credit__button:focus,
