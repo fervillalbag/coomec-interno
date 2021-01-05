@@ -257,6 +257,12 @@ ul {
    width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+   .card-loan__image {
+      max-width: 100%;
+   }
+}
+
 .card-loan__info {
    color: var(--lightColor);
 }
