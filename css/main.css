@@ -121,6 +121,14 @@ ul {
    .header {
       display: none;
    }
+
+   .header__link,
+   .hBanner .subMenu-1 a {
+      height: 100%;
+      border: none !important;
+      color: #fff !important;
+   }
+
 }
 
 .header .container-custom {
